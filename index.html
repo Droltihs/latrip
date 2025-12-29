@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for an Amazing Trip</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HEY GUYS !</h1>
+            <p class="subtitle">Thank you for all the fun memories created in such little time</p>
+        </header>
+
+        <main>
+            <div class="carousel-wrapper">
+                <div class="carousel-background" id="carousel-background"></div>
+                <div class="carousel-container">
+                    <div class="carousel" id="carousel"></div>
+                    <button class="carousel-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="carousel-btn next" onclick="changeSlide(1)">&#10095;</button>
+                    <div class="carousel-dots" id="carousel-dots"></div>
+                </div>
+            </div>
+
+            <div class="intro">
+                <p>This trip wouldn't have been the same without each and every one of you. Thank you for making it unforgettable!</p>
+            </div>
+
+            <div class="friends-grid">
+                <a href="abby.html" class="friend-card" style="background-image: url('photos/abby.jpg');">
+                    <div class="friend-card-overlay">
+                        <h2>Abby</h2>
+                    </div>
+                </a>
+
+                <a href="shell.html" class="friend-card" style="background-image: url('photos/shell.jpg');">
+                    <div class="friend-card-overlay">
+                        <h2>Shell</h2>
+                    </div>
+                </a>
+
+                <a href="celeste.html" class="friend-card" style="background-image: url('photos/celeste.jpg');">
+                    <div class="friend-card-overlay">
+                        <h2>Celeste</h2>
+                    </div>
+                </a>
+
+                <a href="zack.html" class="friend-card" style="background-image: url('photos/zack.jpg');">
+                    <div class="friend-card-overlay">
+                        <h2>Zack</h2>
+                    </div>
+                </a>
+            </div>
+
+            <div class="closing">
+                <p>Here's to many more adventures together!</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="carousel-config.js"></script>
+    <script src="carousel.js"></script>
+</body>
+</html>
